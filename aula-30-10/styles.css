@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+h1{
+    color: rgb(255, 231, 195);
+    text-align: center;
+    border: 3px solid white;
+    margin-left: 530px;
+    margin-right: 530px;
+
+}
+
+p{
+    /* Estilo do parágrafo */
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-indent: 20px;
+}
+
+img{
+    /* Estou centralizando minha imagem na página */
+    justify-self: center;
+    align-self: center;
+    border: 5px solid rgb(255, 255, 255);
+    
+}
+
+table{
+    margin-top: 30px;
+}
+table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+th{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+tr td:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+}
+
+button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 3px solid blanchedalmond;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+button :hover{
+    background-color: aliceblue;
+    color: black;
+}
