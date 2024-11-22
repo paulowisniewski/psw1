@@ -1,14 +1,14 @@
 .titulo{
-    display: flex;  /* Movimentar divs dentro da class */
-    justify-content: center;    /* Centralizar na horizontal */
-    flex-direction: row;    /* Em forma de linha, uma div na frente da outra */
-    width: 100%;    /* Largura da div */
-    height: 110px;  /* Altura da Div */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 110px;
 
 }
 
 #div1{
-    background-color: rgb(51, 255, 0);
+    background-image: linear-gradient(to right, rgb(255, 186, 84), rgb(143, 103, 28), rgb(255, 186, 84));
     width: 20%;
 }
 
