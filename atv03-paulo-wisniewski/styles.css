@@ -1,0 +1,285 @@
+/*Estilização da Página index.php*/
+
+body{
+    background-color: white;
+}
+
+.cabecalho{
+    background-image: linear-gradient(to right, rgb(173, 204, 153), rgb(118, 143, 82) 50%, rgb(173, 204, 153));
+    display: flex;
+    width: 100%;
+    height: 110px;
+}
+
+#logo-psw{
+    width: 10%;
+    height: 180px;
+    margin-top: -35px;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    width: 80%;
+}
+
+#logo-if{
+    width: 10%;
+    height: 80px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+#divisoria-nav{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.barra-nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(173, 204, 153), rgb(118, 143, 82) 50%, rgb(173, 204, 153));
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+    padding: 10px 50px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover{
+    color:#d1d1d1
+}
+
+h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    align-content: center;
+    font-style: italic;
+}
+
+.texto{
+    text-align: justify;
+    width: 70%;
+    height: 600px;
+    margin-top: 50px;
+}
+
+#titulo-texto{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: black;
+}
+
+#p{
+    margin-right: 10%;
+    margin-left: 10%;
+    text-indent: 30px;
+}
+
+.imagens{
+    width: 30%;
+    margin-left: 70%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -620px;
+    text-align: center;
+}
+
+#turma-2023{
+    width: 80%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#turma-2024{
+    width: 80%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.rodape{
+    background-image: linear-gradient(to right, rgb(173, 204, 153), rgb(118, 143, 82) 50%, rgb(173, 204, 153));
+    height: 70px;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    align-content: center;
+}
+
+h5{
+    color: white;
+}
+
+#logo-git{
+    height: 50px;
+    margin-left: 90%;
+    margin-top: -200px;
+}
+
+#logo-git:hover{
+    height: 55px;
+}
+
+/*Estilização da Página cadaluno.php*/
+
+.titulo-2{
+    background-color: rgb(225, 225, 225);
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    font-style: italic;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#titulo-cad{
+    color: black;
+}
+
+.formulario{
+    display: flex;
+}
+
+.formulario-esquerda{
+    width: 40%;
+    height: 600px;
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.formulario-direita{
+    width: 40%;
+    height: 600px;
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.radio{
+    margin-top: 30px;
+}
+
+input{
+    border: solid 1px black;
+}
+
+input[type=text], [type=email]{
+    padding: 10px;
+    width: 60%;
+    text-align: center;
+    font-size: medium;
+}
+
+input[type=tel], [type=number]{
+    padding: 5px;
+    text-align: center;
+}
+
+input[type=date], [type=password]{
+    text-align: center;
+    padding: 4px;
+}
+
+select{
+    text-align: center;
+    padding: 3px;
+    border: solid 1px black;
+}
+
+label{
+    margin-top: 15px;
+    color: black;
+    font-size: 16px;
+}
+
+ul{
+    text-align: center;
+}
+
+#ul-esquerda{
+    margin-top: 30px;
+}
+
+.botao{
+    width: 80%;
+    background-color: rgb(225, 225, 225);
+    height: 100px;
+    margin-left: 10%;
+    text-align: center;
+    align-content: center;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 15px;
+    background-color: rgb(49, 212, 27);
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: rgb(20, 100, 15);
+    color: white;
+    cursor: pointer;
+}
+
+/*Estilização da Página listaaluno.php*/
+
+#titulo-tabela{
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+    
+table{
+    width: 100%;
+    border: solid 1px black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+    
+th, td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+    
+th{
+    background-color: rgb(118, 143, 82);
+}
+    
+tr{
+    background-color: white;
+}
+  
+td{
+    color: black;
+}
+    
+tr:hover{
+    background-color: #ddd;
+}
